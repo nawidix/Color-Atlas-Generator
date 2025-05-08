@@ -10,8 +10,6 @@ psd-color-atlas
 │   ├── main.py
 │   ├── color_parser.py
 │   └── atlas_generator.py
-├── data
-│   └── colors.txt
 ├── requirements.txt
 └── README.md
 ```
