@@ -43,6 +43,10 @@ This will read the hex colors from an Open File, create a 128x128px (or custom n
 - `psd-tools`: A library for creating and manipulating PSD files.
 - Any other libraries specified in `requirements.txt`.
 
+## Future Updates
+
+- Support for PSD format will be added in the next update.
+
 ## License
 
 Free LICENSE.
