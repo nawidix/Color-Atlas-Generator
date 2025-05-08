@@ -38,7 +38,7 @@ To generate the color atlas, run the following command:
 python src/main.py
 ```
 
-This will read the hex colors from an Open File, create a 128x128px PNG, and fill it with rectangles in a grid layout.
+This will read the hex colors from an Open File, create a 128x128px (or custom number) PNG, and fill it with rectangles in a grid layout.
 
 ## Dependencies
 
