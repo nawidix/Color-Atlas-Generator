@@ -30,9 +30,6 @@ psd-color-atlas
    pip install -r requirements.txt
    ```
 
-3. **Prepare the colors file:**
-   Edit the `data/colors.txt` file to include your desired hex color values, one per line.
-
 ## Running the Application
 
 To generate the color atlas, run the following command:
@@ -41,7 +38,7 @@ To generate the color atlas, run the following command:
 python src/main.py
 ```
 
-This will read the hex colors from `data/colors.txt`, create a 128x128px PNG, and fill it with rectangles in a grid layout.
+This will read the hex colors from an Open File, create a 128x128px PNG, and fill it with rectangles in a grid layout.
 
 ## Dependencies
 
