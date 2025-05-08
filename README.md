@@ -1,8 +1,8 @@
 # PNG/PSD Color Atlas Generator
 
-This project generates a color atlas in PNG format using hex color values specified in a text file. 
-For use, Clone this repository first to get the "Colors.txt" file: https://github.com/nawidix/ColorExtractor.git
-The atlas consists of a grid of rectangles, each filled with a specified color.
+- This project generates a color atlas in PNG format using hex color values specified in a text file. 
+- For use, Clone this repository first to get the "Colors.txt" file: https://github.com/nawidix/ColorExtractor.git .
+- The atlas consists of a grid of rectangles, each filled with a specified color.
 
 ## Project Structure
 
