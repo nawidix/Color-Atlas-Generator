@@ -1,0 +1,53 @@
+# PNG/PSD Color Atlas Generator
+
+This project generates a color atlas in PNG format using hex color values specified in a text file. The atlas consists of a grid of rectangles, each filled with a specified color.
+
+## Project Structure
+
+```
+psd-color-atlas
+├── src
+│   ├── main.py
+│   ├── color_parser.py
+│   └── atlas_generator.py
+├── data
+│   └── colors.txt
+├── requirements.txt
+└── README.md
+```
+
+## Setup Instructions
+
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/nawidix/Color-Atlas-Generator.git
+   cd psd-color-atlas
+   ```
+
+2. **Install dependencies:**
+   Install the required packages directly:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **Prepare the colors file:**
+   Edit the `data/colors.txt` file to include your desired hex color values, one per line.
+
+## Running the Application
+
+To generate the color atlas, run the following command:
+
+```
+python src/main.py
+```
+
+This will read the hex colors from `data/colors.txt`, create a 128x128px PNG, and fill it with rectangles in a grid layout.
+
+## Dependencies
+
+- `psd-tools`: A library for creating and manipulating PSD files.
+- Any other libraries specified in `requirements.txt`.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
