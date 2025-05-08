@@ -50,4 +50,4 @@ This will read the hex colors from `data/colors.txt`, create a 128x128px PNG, an
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+Free LICENSE.
