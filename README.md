@@ -51,3 +51,5 @@ This will read the hex colors from `data/colors.txt`, create a 128x128px PNG, an
 ## License
 
 Free LICENSE.
+
+Made by: @NAWIDX
